@@ -1,0 +1,1 @@
+export { knownGoodWords, bannedWords } from './wordLists'; 

@@ -1,8 +1,8 @@
 import React from 'react';
-import { WordPuzzleSolverGUI } from './components/WordPuzzleSolverGUI';
+import { WordPuzzleSolverGUI } from './components/WordPuzzleSolverGUI.tsx';
 import './App.css';
 
-const App: React.FC = () => {
+function App() {
   return (
     <div className="App">
       <WordPuzzleSolverGUI />
@@ -10,4 +10,4 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+export default App; 
